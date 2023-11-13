@@ -1,0 +1,216 @@
+.first{
+    background-image: url("background_1.png");
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.first .open_discord{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    border-radius: 40%;
+    font-weight: 600;
+}
+.first .open_discord:hover{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(81, 43, 234);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 3px 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 40%;
+}
+.first h1{
+    font-family: "impact";
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+.first .tab {
+    display: inline-block;
+    margin-left: 4em;
+}
+.first .download{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    border: none;
+    
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 20%;
+}
+.first .download span{
+    font-size: 30px;  
+}
+.first .download:hover{
+    color: rgb(81, 43, 234);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.first .browser{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    
+    border: none;
+    
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 20%;
+}
+.first .browser:hover{
+    background-color: rgb(47, 45, 45);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    
+    border: none;
+    
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 20%;
+}
+.first p button{
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.first p button:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    border:none;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second .image img{
+    float:left;
+    justify-content: left;
+}
+.second .text h1{
+    font-size: 50px;
+    padding-left: 100px;
+}
+.second .text p{
+    font-size: 20px;
+    padding-left: 100px;
+    line-height: 1.8;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third .text h1{
+    font-size: 50px;
+    padding-right: 100px;
+}
+.third .text p{
+    font-size: 20px;
+    padding-right: 100px;
+    line-height: 1.8;
+}
+.third .image img{
+    float:right;
+    justify-content: right;
+}
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth .image img{
+    float:left;
+    justify-content: left;
+}
+.fourth .text h1{
+    font-size: 50px;
+    padding-left: 100px;
+}
+.fourth .text p{
+    font-size: 20px;
+    padding-left: 100px;
+    line-height: 1.8;
+}
+
+.fifth h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fifth p{
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+}
+.fifth .image img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.fifth .download{
+    text-align: center;
+}
+.fifth .download button{
+    background-color: rgb(81, 43, 234);
+    color: rgb(247, 247, 247);
+    border: none;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 20%;
+}
+.fifth .download button{
+    font-size: 30px;  
+}
+.fifth .download  button:hover{
+    background-color: rgb(79, 138, 226);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.sixth h2{
+    color:white;
+    padding-left: 30px;
+    display: inline-flex;
+    justify-content: left;
+}
+.sixth .open_discord{
+    color:white;
+    display: inline-flex;
+    padding-right: 30px;
+    justify-content: right;
+}
